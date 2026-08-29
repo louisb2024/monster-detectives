@@ -1,0 +1,500 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<title>The Unraveled Mummy</title>
+
+<style>
+  :root{
+    --night:#12131f;
+    --paper:#e9eee6;
+    --paper-dim:#dde3d7;
+    --ink:#1c1f26;
+    --ink-soft:#4a4f45;
+    --purple:#6a3fa0;
+    --green:#4f9c2e;
+    --pink:#c93d76;
+    --blue:#2f5bc4;
+    --gold:#c98a1f;
+    --rule:#b9c1af;
+  }
+
+  *{ box-sizing:border-box; }
+
+  body{
+    background:var(--night);
+    background-image:
+      radial-gradient(1px 1px at 8% 12%, rgba(233,238,230,.6) 60%, transparent 61%),
+      radial-gradient(1px 1px at 22% 30%, rgba(233,238,230,.5) 60%, transparent 61%),
+      radial-gradient(1.5px 1.5px at 70% 8%, rgba(233,238,230,.55) 60%, transparent 61%),
+      radial-gradient(1px 1px at 88% 22%, rgba(233,238,230,.5) 60%, transparent 61%),
+      radial-gradient(1px 1px at 55% 45%, rgba(233,238,230,.4) 60%, transparent 61%);
+    color:var(--ink);
+    font-family:'Courier Prime', 'Courier New', monospace;
+    display:flex;
+    justify-content:center;
+    padding:56px 16px 100px;
+  }
+
+  .page{
+    width:100%;
+    max-width:680px;
+    background:var(--paper);
+    border:1px solid #00000022;
+    box-shadow: 0 24px 60px rgba(0,0,0,.55);
+    padding:52px 46px 60px;
+  }
+
+  /* ---- title page ---- */
+  .eyebrow{
+    font-size:0.72rem;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    text-align:center;
+  }
+  h1.title{
+    font-family:'Nosifer', 'Courier Prime', cursive;
+    font-size:clamp(2.1rem, 7vw, 3.1rem);
+    text-align:center;
+    color:var(--purple);
+    margin:14px 0 6px;
+    line-height:1.15;
+    text-wrap:balance;
+  }
+  .franchise{
+    text-align:center;
+    font-size:0.85rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-bottom:22px;
+  }
+  .logline{
+    text-align:center;
+    font-size:0.95rem;
+    color:var(--ink);
+    max-width:46ch;
+    margin:0 auto 30px;
+    line-height:1.55;
+  }
+
+  .cast{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:10px;
+    margin-bottom:28px;
+  }
+  @media (max-width:520px){ .cast{ grid-template-columns:repeat(2,1fr); } }
+  .cast-chip{
+    border:2px solid var(--c, var(--ink));
+    border-radius:3px;
+    padding:8px 8px 9px;
+    text-align:center;
+  }
+  .cast-chip .name{ font-weight:700; font-size:0.78rem; color:var(--c, var(--ink)); letter-spacing:0.03em; }
+  .cast-chip .role{ font-size:0.66rem; color:var(--ink-soft); margin-top:3px; line-height:1.3; }
+
+  .meta-rule{ border:none; border-top:1px dashed var(--rule); margin:0 0 22px; }
+
+  .prod-notes{
+    background:var(--paper-dim);
+    border-left:3px solid var(--gold);
+    padding:14px 18px;
+    font-size:0.78rem;
+    line-height:1.6;
+    color:var(--ink);
+    margin-bottom:8px;
+  }
+  .prod-notes h4{
+    font-size:0.7rem;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin:0 0 8px;
+  }
+  .prod-notes p{ margin:0 0 8px; }
+  .prod-notes p:last-child{ margin-bottom:0; }
+  .prod-notes b{ color:var(--purple); }
+
+  /* ---- script body ---- */
+  .scene{ margin-top:44px; }
+  .scene-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    border-bottom:2px solid var(--ink);
+    padding-bottom:6px;
+    margin-bottom:14px;
+  }
+  .slug{ font-weight:700; font-size:0.92rem; letter-spacing:0.02em; }
+  .time-badge{
+    font-size:0.72rem;
+    color:var(--paper);
+    background:var(--ink);
+    padding:2px 8px;
+    border-radius:2px;
+    white-space:nowrap;
+  }
+
+  .action{ font-size:0.92rem; line-height:1.65; margin:0 0 14px; color:var(--ink); }
+
+  .cue{
+    text-align:center;
+    font-weight:700;
+    font-size:0.88rem;
+    letter-spacing:0.04em;
+    margin:16px 0 2px;
+    color:var(--c, var(--ink));
+  }
+  .cue .paren{ font-weight:400; font-style:italic; font-size:0.78rem; color:var(--ink-soft); }
+  .dialogue{
+    max-width:78%;
+    margin:0 auto 8px;
+    font-size:0.92rem;
+    line-height:1.6;
+    text-align:left;
+  }
+
+  .shot-note{
+    background:var(--paper-dim);
+    border-left:3px solid var(--blue);
+    padding:9px 14px;
+    font-size:0.76rem;
+    font-style:italic;
+    color:var(--ink-soft);
+    margin:14px 0;
+    line-height:1.55;
+  }
+
+  .transition{
+    text-align:right;
+    font-size:0.8rem;
+    font-weight:700;
+    letter-spacing:0.05em;
+    margin:18px 0 0;
+    color:var(--ink-soft);
+  }
+
+  .runtime-tally{
+    margin-top:50px;
+    padding-top:18px;
+    border-top:2px solid var(--ink);
+    display:flex;
+    justify-content:space-between;
+    font-size:0.78rem;
+    color:var(--ink-soft);
+    letter-spacing:0.03em;
+  }
+
+  .closing{
+    text-align:center;
+    margin-top:40px;
+  }
+  .closing .stamp{
+    display:inline-block;
+    font-family:'Nosifer', cursive;
+    font-size:1.5rem;
+    color:var(--green);
+    border:3px solid var(--green);
+    border-radius:6px;
+    padding:8px 22px;
+    transform:rotate(-3deg);
+  }
+</style>
+
+<div class="page">
+
+  <div class="eyebrow">monster detectives — episode 1</div>
+  <h1 class="title">The Unraveled Mummy</h1>
+  <div class="franchise">a 15-minute shooting script</div>
+
+  <p class="logline">
+    When the town square's mummy statue turns up completely unwrapped, the Monster Detectives chase the only clue they've got — a hyperactive puppy running off with the evidence in his mouth.
+  </p>
+
+  <div class="cast">
+    <div class="cast-chip" style="--c:var(--purple)"><div class="name">MADELINE · 9</div><div class="role">The Leader</div></div>
+    <div class="cast-chip" style="--c:var(--green)"><div class="name">OLIVIA · 9</div><div class="role">The Clue Finder</div></div>
+    <div class="cast-chip" style="--c:var(--pink)"><div class="name">VEDA · 6</div><div class="role">The Goofball</div></div>
+    <div class="cast-chip" style="--c:var(--blue)"><div class="name">KOBE · 1</div><div class="role">The Puppy, No Lines</div></div>
+  </div>
+
+  <hr class="meta-rule">
+
+  <div class="prod-notes">
+    <h4>Production Notes</h4>
+    <p><b>Voices:</b> three ElevenLabs voices for Madeline / Olivia / Veda. Kobe never speaks — bark, pant, and scuffle sound effects only, so he costs nothing in voice credits.</p>
+    <p><b>Static vs. generated:</b> Scenes 1, 4, 5, 6 are dialogue-heavy — build these as still panels with pan/zoom (cheap). Scene 3 (the chase) is the one worth spending real image-to-video credits on — it's the highest-motion, highest-payoff sequence in the episode.</p>
+    <p><b>Color key:</b> each character's name is tinted to match their poster color, so the cue color alone tells you who's talking when you're skimming for VO recording.</p>
+  </div>
+
+  <!-- COLD OPEN -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">COLD OPEN — EXT. TOWN SQUARE — NIGHT</span>
+      <span class="time-badge">0:00–0:45</span>
+    </div>
+    <p class="action">A full moon over rooftops. Bats cross its face. Jack-o'-lanterns flicker down the street toward a stone building marked MONSTER POLICE.</p>
+    <p class="action" style="text-align:center; font-style:italic;">TITLE CARD: "Somewhere in town, past the last porch light, something is stirring..."</p>
+    <div class="shot-note">Shot note: single slow-push establishing shot. Good candidate for a short, cheap image-to-video pass — camera motion only, no character animation needed.</div>
+  </div>
+
+  <!-- SCENE 1 -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">SCENE 1 — INT. MONSTER POLICE HQ — NIGHT</span>
+      <span class="time-badge">0:45–2:00</span>
+    </div>
+    <p class="action">MADELINE straightens her badge, addressing the room. OLIVIA is already halfway out the door. VEDA sits on the desk with a bag marked "EVIDENCE" that is mostly candy.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">Okay, everyone. We need to stay focused tonight.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">I already found footprints on the porch!</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">Olivia, we haven't even gotten a case yet.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">I know. I just like finding things.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA <span class="paren">(mouth full)</span></div>
+    <p class="dialogue">I found a candy wrapper! Or maybe I found lunch.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">Veda&nbsp;—</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA</div>
+    <p class="dialogue">Just checking.</p>
+
+    <p class="action">A radio crackles on the desk.</p>
+
+    <div class="cue">DISPATCH <span class="paren">(V.O.)</span></div>
+    <p class="dialogue">Attention, Monster Detectives — the town square mummy statue has been completely unwrapped. Bandages everywhere.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">That's our case. Let's roll, team.</p>
+
+    <p class="action">They grab their gear. A beat. Everyone looks around.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">Wait. Where's Kobe?</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">KOBE?!</p>
+
+    <div class="transition">CUT TO:</div>
+  </div>
+
+  <!-- SCENE 2 -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">SCENE 2 — EXT. TOWN SQUARE — CONTINUOUS</span>
+      <span class="time-badge">2:00–4:00</span>
+    </div>
+    <p class="action">The team arrives to find the mummy statue completely bare, its bandages unraveled across the square like streamers.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA <span class="paren">(crouching)</span></div>
+    <p class="dialogue">Look — drag marks. Whatever did this went that way.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA</div>
+    <p class="dialogue">Maybe the mummy got really hot and took its own wrap off.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">Everyone knows mummies don't get hot, Veda.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA</div>
+    <p class="dialogue">You call yourself a detective? Mummies live in the desert — of course they get hot!!</p>
+
+    <p class="action">KOBE races INTO frame — a huge strip of mummy bandage trailing from his mouth like a cape.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA <span class="paren">(looking at Olivia and Madeline with contempt)</span></div>
+    <p class="dialogue">Kobe's already on the case while you two are playing Barbies. I think he found something!</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">KOBE, DROP IT!</p>
+
+    <p class="action">Kobe runs faster. Ears flapping. Tail a blur.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">He definitely found something.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">After him!</p>
+
+    <div class="transition">CUT TO:</div>
+  </div>
+
+  <!-- SCENE 3 -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">SCENE 3 — THE CHASE — EXT. TOWN STREETS — CONTINUOUS</span>
+      <span class="time-badge">4:00–7:00</span>
+    </div>
+    <div class="shot-note">Shot note: this is the big spend. Fast-cut chase, mostly visual gags — worth generating as real motion (Runway/Pika/Kling) rather than static panels. Sound design carries it: paws slapping pavement, crashing pumpkins, rustling leaves.</div>
+
+    <p class="action">Kobe barrels down the sidewalk, bandage flying behind him. He clips a pumpkin display — it topples — and he tumbles head over paws through a pile of raked leaves, pops back up without missing a beat, and keeps sprinting.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE <span class="paren">(breathless, running)</span></div>
+    <p class="dialogue">KOBE! STAY!</p>
+
+    <p class="action">Kobe stops. Looks back. Waits exactly two seconds.</p>
+
+    <div class="cue" style="--c:var(--blue)">KOBE</div>
+    <p class="dialogue" style="font-style:italic;">(bolts again)</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA <span class="paren">(laughing, running)</span></div>
+    <p class="dialogue">He waited two seconds!! That's twice as long as he usually waits!</p>
+
+    <p class="action">OLIVIA skids to a stop at a fork in the road, rocks flying up as her sneakers scrape to a halt, scanning the ground.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">He went left! There's bandage fluff everywhere!</p>
+
+    <p class="action">They round the corner just in time to see Kobe's legs disappear behind the old toolshed at the edge of the park — and to hear him howling as he gives chase.</p>
+
+    <div class="transition">CUT TO:</div>
+  </div>
+
+  <!-- SCENE 4 -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">SCENE 4 — EXT. BEHIND THE TOOLSHED — NIGHT</span>
+      <span class="time-badge">7:00–9:00</span>
+    </div>
+    <p class="action">The team catches up, panting, to find Kobe sitting proudly on top of a fallen scarecrow, tail going full speed, long tongue dangling out of his mouth, a scrap of bandage looped around the scarecrow's arm.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">Kobe. Little buddy. What did you do?!</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA <span class="paren">(examining the scene)</span></div>
+    <p class="dialogue">Wait — look. The scarecrow's arm is bent all the way back. And there's rope, snapped clean through.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA</div>
+    <p class="dialogue">I knew it. The scarecrow attacked the mummy!</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">Scarecrows can't move, Veda.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA</div>
+    <p class="dialogue">What makes you a scarecrow expert?</p>
+
+    <p class="action">Olivia picks up the chewed rope, studying it closely.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">This didn't snap. It was eaten. Look how frayed it is at the top, not the bottom.</p>
+
+    <div class="transition">CUT TO:</div>
+  </div>
+
+  <!-- SCENE 5 -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">SCENE 5 — THE REVEAL — EXT. TOWN SQUARE — LATER</span>
+      <span class="time-badge">9:00–11:30</span>
+    </div>
+    <p class="action">Olivia lays it out for the team, gesturing between the mummy statue and the scarecrow.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">Here's what happened. Some animal must have chewed through the rope — could've been a werewolf, or maybe a vampire bat. When the rope broke, the scarecrow swung into the mummy statue, and its arm caught the wrapping and pulled the whole thing loose as it fell.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">And it dragged along the ground all the way behind the toolshed...</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">...where Kobe found it and decided it was the best toy in the world.</p>
+
+    <p class="action">Kobe, still wearing a scrap of bandage like a scarf, barks proudly.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA</div>
+    <p class="dialogue">Wait. Werewolves and vampire bats don't live downtown. Who else could have chewed the rope?</p>
+
+    <p class="action">Olivia slowly turns toward Kobe — covered head to tail in rope and straw.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">No, no — not a werewolf, not a vampire bat. Just a silly puppy who loves to snack on everything.</p>
+
+    <div class="cue">ALL <span class="paren">(at the same time)</span></div>
+    <p class="dialogue">KOBEEE!!</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE <span class="paren">(smiling, shaking her head)</span></div>
+    <p class="dialogue">Mystery solved. Case closed.</p>
+
+    <div class="transition">CUT TO:</div>
+  </div>
+
+  <!-- SCENE 6 -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">SCENE 6 — WRAP-UP — EXT. TOWN SQUARE — NIGHT</span>
+      <span class="time-badge">11:30–14:00</span>
+    </div>
+    <p class="action">The team rewraps the mummy statue together, working as one, while Kobe "helps" mostly by getting tangled in the bandages himself. Veda tries to grab the loose end to help him — and gets wrapped right along with him. When it stops, the two of them are stuck together as a single mummy, wrapped head to toe — only Veda's eyes and lips visible, and Kobe's eyes and ears poking out through the bandages beside her.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA <span class="paren">(muffled, only her eyes and lips showing)</span></div>
+    <p class="dialogue">These two crime-solving mummies just solved the case. On the next case, we could use a little help?</p>
+
+    <p class="action">Madeline and Olivia look at the two of them, unimpressed, hands on hips. Without a word, they each grab a loose end of bandage and yank — hard. Veda and Kobe spin in place like a top, bandages unraveling off both of them and flying loose into the air.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE <span class="paren">(laughing)</span></div>
+    <p class="dialogue">Good work, team. Olivia, great catch on the rope.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA</div>
+    <p class="dialogue">Thanks. Veda, your scarecrow theory was... creative.</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA <span class="paren">(finally free, proudly)</span></div>
+    <p class="dialogue">That's what leaders do!! We solve cases. Hopefully next time you and Madeline will pitch in.</p>
+
+    <p class="action">Madeline gives a huge eye roll while she crouches down to scratch Kobe's ears. His leg instantly starts kicking.</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">And you. Best nose on the team. The absolute worst listener on the team.</p>
+
+    <p class="action">Kobe gives her face one giant, slobbery lick — ear to chin, drool and all. Madeline wipes her cheek, laughing. Then Kobe's ears perk up: he spots a shadowy figure, across the square.</p>
+
+    <p class="action">With the bandages still wrapped around him, Kobe takes off in a full sprint after the shadowy figure. Mid-yard, he skids to a stop, plants his paws, and points his nose straight up at the full moon.</p>
+
+    <div class="cue" style="--c:var(--blue)">KOBE</div>
+    <p class="dialogue" style="font-style:italic;">(one long, dramatic howl — then bolts, instantly)</p>
+
+    <p class="action">The leftover strip of mummy bandage, still looped around his middle, streams out behind him and flaps wildly in the wind as he sprints off.</p>
+
+    <div class="cue">ALL THREE <span class="paren">(in unison)</span></div>
+    <p class="dialogue">KOBE!</p>
+
+    <div class="cue" style="--c:var(--purple)">MADELINE</div>
+    <p class="dialogue">Looks like we've got another case.</p>
+
+    <div class="cue" style="--c:var(--green)">OLIVIA <span class="paren">(pulling out her magnifying glass)</span></div>
+    <p class="dialogue">I'm on it!</p>
+
+    <div class="cue" style="--c:var(--pink)">VEDA <span class="paren">(bored look, eyes rolled)</span></div>
+    <p class="dialogue">I already solved it!</p>
+
+    <p class="action">They take off running after Kobe, laughing, bandage still fluttering, as the mummy statue stands finally rewrapped behind them, the full moon glowing above it.</p>
+
+    <div class="transition">CUT TO:</div>
+  </div>
+
+  <!-- SCENE 7 -->
+  <div class="scene">
+    <div class="scene-head">
+      <span class="slug">SCENE 7 — OUTRO — WIDE SHOT</span>
+      <span class="time-badge">14:00–15:00</span>
+    </div>
+    <div class="shot-note">Shot note: pull back to a wide establishing shot of the square, statue restored, all four detectives running off into the night under the full moon.</div>
+    <p class="action" style="text-align:center; font-style:italic;">TITLE CARD: "CASE CLOSED."</p>
+    <p class="action" style="text-align:center; font-style:italic;">SUBTITLE: "The Monster Detectives will return."</p>
+  </div>
+
+  <div class="runtime-tally">
+    <span>7 scenes + cold open</span>
+    <span>total runtime — 15:00</span>
+  </div>
+
+  <div class="closing">
+    <div class="stamp">CASE CLOSED</div>
+  </div>
+
+</div>
