@@ -1,48 +1,49 @@
 # Monster Detectives — Visual Style Bible
 
-First-draft visual design, inferred from the established personalities, ages, and poster colors already locked into the storyboard/scripts. Nothing here has been drawn yet — this is the reference sheet to keep every AI-generated shot consistent. Adjust freely before running the generation pass.
+**v2 — corrected to match the approved character art in `reference/character-sheet.png`** (generated in ChatGPT, conversation "Create Monster Detectives"). The first draft of this file invented a flat 2D cel-shaded style with no basis — disregard it. Everything below is derived from the actual approved reference.
 
 ## Overall look
 
-- **Genre feel**: warm, spooky-*cute* Halloween kids' show — think *Scooby-Doo: Mystery Incorporated* energy softened with *Bluey*-style warmth. Never actually scary.
-- **Medium**: clean 2D digital illustration / cel-shaded animation style. Bold outlines, flat-ish color fill with soft gradient shading, no photorealism.
-- **Palette**: autumn-at-night — pumpkin orange, deep purple-blue dusk sky, warm porch-light gold, with each character's accent color (below) popping against the muted town backdrop.
-- **Lighting**: full moon + string lights + jack-o'-lantern glow as the primary light sources. Long soft shadows, warm rim-light on characters facing the moon.
-- **Setting**: "Monster City" town square — small-town Americana main street, Halloween-decorated storefronts, pumpkins lining the sidewalk, the mummy statue as a square centerpiece, a toolshed/backyard area for the later scenes.
+- **Medium**: high-quality 3D animated character render — Pixar/DreamWorks-adjacent. Large expressive eyes, soft cinematic lighting, glossy stylized hair and fabric textures. Not flat, not 2D, not photorealistic — a polished modern kids'-movie render.
+- **Genre feel**: warm, spooky-*cute* Halloween — never actually scary.
+- **Lighting**: moonlit night scene — cool blue-purple ambient light with warm gold pockets from jack-o'-lanterns, string lights, and window glow. Characters are lit warmly against the cool background (classic "warm subject, cool environment" split).
+- **Setting**: "Monster City" — a cobblestone town square, Victorian/Tudor-style buildings, jack-o'-lanterns lining the street, a full moon with bats silhouetted overhead, a "MONSTER DETECTIVES" storefront (purple double doors, a paw-print insignia sign) as the HQ exterior.
+- **Logo treatment** (for title cards only, e.g. shot 7.1): "MONSTER" in green slimy dripping letters with an eyeball replacing the O, "DETECTIVES" below in purple, a magnifying glass icon integrated into the lockup.
 
 ## Characters
+*(Reference: `reference/character-sheet.png` — Madeline, Veda, Olivia, Kobe, left to right)*
 
 ### Madeline — age 9 — "The Leader"
 Confident, natural leader energy, slightly bossy but warm.
-- **Accent color**: purple `#6a3fa0` (poster/storyboard color — keep as her primary outfit color)
-- **Design**: neat, put-together — hair kept tidy (short bob or twin buns) to read as "organized." Wears a detective badge pinned to a purple jacket/hoodie. Carries a flashlight or small notebook as her signature prop.
-- **Expression range**: default confident half-smile; exasperated eye-roll when dealing with Kobe; decisive/serious when giving orders.
-
-### Olivia — age 9 — "The Clue Finder"
-Sharp, observant, a little proud of being right, warms up when explaining a clue.
-- **Accent color**: rose/pink `#c76b95`
-- **Design**: practical explorer look — the magnifying glass is her signature prop (already called out in the storyboard for shot 4.5), should be visible in most of her shots. Consider glasses to reinforce "observant." Hair practical (ponytail) for crouching/examining clues.
-- **Expression range**: intent focus while examining evidence; proud smirk when she's right; crouched/leaning-in posture is her default action pose.
+- **Accent color**: purple
+- **Look**: long wavy dark brown hair with a small purple clip; warm light-tan skin, brown eyes. Purple pleather trench coat/jacket with a gold sheriff-star badge pinned on the left chest, black belt with small utility pouches, black leggings, purple high-top sneakers (white laces, cream soles).
+- **Default pose/expression**: confident, arms crossed, easy half-smile. Decisive and serious when giving orders; exasperated eye-roll around Kobe.
 
 ### Veda — age 6 — "The Goofball"
 Goofy, loud, a little dramatic, delivers nonsense with total confidence.
-- **Accent color**: magenta/pink `#c93d76`
-- **Design**: youngest of the three, rounder proportions, more exaggerated expressions. Always near her "EVIDENCE" bag (which is mostly candy — sight gag opportunity: wrappers visible poking out). Cheeks often full of candy.
-- **Expression range**: wide dramatic gestures, mouth full of candy, contemptuous side-eye at the other two, gleeful when "solving" things incorrectly.
+- **Accent color**: magenta/pink
+- **Look**: blonde wavy hair in two space-buns, one with a blue clip, one with a pink monster-shaped clip; bright green eyes, big open gap-tooth smile. Mustard-yellow zip hoodie over a pink t-shirt with a cute cartoon-monster graphic, sparkly purple skater skirt, rainbow-striped tights, pink Croc-style sandals with charms.
+- **Default pose/expression**: wide dramatic gestures, mouth full of candy, gleeful chaos, contemptuous side-eye when "right."
 
-### Kobe — the puppy — no lines
-- **Accent color**: blue `#2f5bc4`
-- **Design**: medium-energy floppy-eared breed (beagle/lab-mix read), expressive ears and tail that telegraph emotion since he never talks. Trails a strip of mummy bandage from his mouth for most of Scenes 2–6 (eventually worn like a scarf/cape).
-- **Expression range**: gleeful chaos while running, guilty-but-proud when caught, perked ears for the hero howl beat.
+### Olivia — age 9 — "The Clue Finder"
+Sharp, observant, a little proud of being right, warms up when explaining a clue.
+- **Accent color**: rose/pink
+- **Look**: long wavy brown hair, round purple/magenta glasses, brown eyes. Pink pleather moto jacket over a white collared shirt with a black-and-pink plaid tie, pink pleated skirt, pink high-top sneakers.
+- **Default pose/expression**: hand adjusting her glasses, other hand on hip; intent focus while examining evidence; proud smirk when right.
 
-## Shot-type visual conventions (carried over from the storyboard legend)
-- **WS** (Wide Shot) — establish geography, full-body characters, small in frame
+### Kobe — age 1 (puppy) — no lines
+The clumsy, super energetic puppy — best nose on the team.
+- **Accent color**: blue
+- **Look**: black-and-tan Doberman/Rottweiler-mix puppy, large expressive brown eyes, one ear up/one flopped, tongue out mid-pant. Blue collar with a gold "KOBE" nameplate tag. Often trailing a strip of mummy bandage from his mouth (Episode 1 specific), or playing with a purple-and-green monster-print ball.
+- **Default pose/expression**: gleeful mid-play crouch; guilty-but-proud when caught; perked ears for alert/hero beats.
+
+## Shot-type visual conventions (from the storyboard legend)
+- **WS** (Wide Shot) — establish geography, full-body characters
 - **MS** (Medium Shot) — waist-up, for dialogue delivery
-- **2-SHOT** — two characters framed together, used for back-and-forth banter
-- **CU** (Close-Up) — face/reaction focus, used for punchlines and emotional beats
-- **INSERT** — object/detail focus (the radio, the rope, the magnifying glass view)
-- **TRACK** — moving subject, used almost exclusively for Kobe's chase beats
+- **2-SHOT** — two characters framed together
+- **CU** (Close-Up) — face/reaction focus
+- **INSERT** — object/detail focus
+- **TRACK** — moving subject (Kobe's chase beats)
 
 ## Using this with an AI generator
-
-Each shot prompt in `visual-prompts.md` assumes this style bible as a standing reference. If your tool supports a reference/character image, generate one clean turnaround image per character first using the descriptions above, then feed those as reference images for every subsequent shot to lock in consistency — pure text-to-image across 46 separate generations will drift otherwise.
+Feed `reference/character-sheet.png` (or crops of individual characters from it) as an image reference alongside the text prompt for every shot — this style of render drifts fast on text alone across 48 separate generations. If your tool supports a persistent reference/character-lock feature (e.g. ChatGPT's image editing keeps continuity within one conversation thread), keep generating inside that same thread rather than starting fresh each time.
