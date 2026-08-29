@@ -1,0 +1,352 @@
+{
+  "veda": [
+    {
+      "line": 1,
+      "text": "I found a candy wrapper! Or maybe I found lunch.",
+      "start": 0.0,
+      "end": 3.17,
+      "duration": 3.17,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line01.mp3"
+    },
+    {
+      "line": 2,
+      "text": "Just checking.",
+      "start": 3.09,
+      "end": 4.14,
+      "duration": 1.05,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line02.mp3"
+    },
+    {
+      "line": 3,
+      "text": "Maybe the mummy got really hot and took its own wrap off.",
+      "start": 4.06,
+      "end": 7.58,
+      "duration": 3.52,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line03.mp3"
+    },
+    {
+      "line": 4,
+      "text": "You call yourself a detective? Mummies live in the desert \u2014 of course they get hot!!",
+      "start": 7.5,
+      "end": 12.7,
+      "duration": 5.2,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line04.mp3"
+    },
+    {
+      "line": 5,
+      "text": "Kobe's already on the case while you two are playing Barbies. I think he found something!",
+      "start": 12.62,
+      "end": 17.3,
+      "duration": 4.68,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line05.mp3"
+    },
+    {
+      "line": 6,
+      "text": "He waited two seconds!! That's twice as long as he usually waits!",
+      "start": 17.22,
+      "end": 21.18,
+      "duration": 3.96,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line06.mp3"
+    },
+    {
+      "line": 7,
+      "text": "I knew it. The scarecrow was hungry and attacked the mummy!",
+      "start": 21.1,
+      "end": 24.25,
+      "duration": 3.15,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line07.mp3"
+    },
+    {
+      "line": 8,
+      "text": "What makes you a scarecrow expert? Apparently they can. How else would he attack the mummy? Hmmmm...",
+      "start": 24.17,
+      "end": 30.37,
+      "duration": 6.2,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line08.mp3"
+    },
+    {
+      "line": 9,
+      "text": "Wait. Werewolves and vampire bats don't live downtown \u2014 the rent is too high. What other scary animal could have used its razor-sharp teeth to chew through the rope?",
+      "start": 30.29,
+      "end": 40.16,
+      "duration": 9.87,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line09.mp3"
+    },
+    {
+      "line": 10,
+      "text": "These two crime-solving mummies just solved the case. On the next case, we could use a little help?",
+      "start": 40.08,
+      "end": 45.27,
+      "duration": 5.19,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line10.mp3"
+    },
+    {
+      "line": 11,
+      "text": "That's what leaders do!! We solve cases. Hopefully next time you and Madeline will pitch in.",
+      "start": 45.19,
+      "end": 50.63,
+      "duration": 5.44,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line11.mp3"
+    },
+    {
+      "line": 12,
+      "text": "Per usual, I already solved it!",
+      "start": 50.55,
+      "end": 52.69,
+      "duration": 2.14,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/veda/veda_line12.mp3"
+    }
+  ],
+  "madeline": [
+    {
+      "line": 1,
+      "text": "Okay, everyone. I have a feeling we're going to have the biggest mystery yet. We need to stay focused tonight.",
+      "start": 0.0,
+      "end": 6.15,
+      "duration": 6.15,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line01.mp3"
+    },
+    {
+      "line": 2,
+      "text": "Olivia, we haven't even gotten a case yet.",
+      "start": 6.07,
+      "end": 8.83,
+      "duration": 2.76,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line02.mp3"
+    },
+    {
+      "line": 3,
+      "text": "Vayda \u2014",
+      "start": 8.75,
+      "end": 9.6,
+      "duration": 0.85,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line03.mp3"
+    },
+    {
+      "line": 4,
+      "text": "That's our case. Let's roll, team.",
+      "start": 9.52,
+      "end": 12.78,
+      "duration": 3.26,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line04.mp3"
+    },
+    {
+      "line": 5,
+      "text": "KOBE?!",
+      "start": 12.7,
+      "end": 13.62,
+      "duration": 0.92,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line05.mp3"
+    },
+    {
+      "line": 6,
+      "text": "Everyone knows mummies don't get hot, Vayda.",
+      "start": 13.54,
+      "end": 16.62,
+      "duration": 3.08,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line06.mp3"
+    },
+    {
+      "line": 7,
+      "text": "KOBE, DROP IT!",
+      "start": 16.54,
+      "end": 18.17,
+      "duration": 1.63,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line07.mp3"
+    },
+    {
+      "line": 8,
+      "text": "After him!",
+      "start": 18.09,
+      "end": 19.43,
+      "duration": 1.34,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line08.mp3"
+    },
+    {
+      "line": 9,
+      "text": "KOBE! STAY! Don't you dare take another step, or you are in big trouble, mister!",
+      "start": 19.35,
+      "end": 25.7,
+      "duration": 6.35,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line09.mp3"
+    },
+    {
+      "line": 10,
+      "text": "Kobe. Little buddy. What did you do?!",
+      "start": 25.62,
+      "end": 29.43,
+      "duration": 3.81,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line10.mp3"
+    },
+    {
+      "line": 11,
+      "text": "Scarecrows can't move, Vayda.",
+      "start": 29.35,
+      "end": 31.78,
+      "duration": 2.43,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line11.mp3"
+    },
+    {
+      "line": 12,
+      "text": "And it dragged along the ground all the way behind the toolshed...",
+      "start": 31.7,
+      "end": 35.69,
+      "duration": 3.99,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line12.mp3"
+    },
+    {
+      "line": 13,
+      "text": "Could've been a werewolf, or maybe a vampire bat.",
+      "start": 35.61,
+      "end": 39.37,
+      "duration": 3.76,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line13.mp3"
+    },
+    {
+      "line": 14,
+      "text": "Mystery solved. Case closed.",
+      "start": 39.29,
+      "end": 42.2,
+      "duration": 2.91,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line14.mp3"
+    },
+    {
+      "line": 15,
+      "text": "Good work, team. Olivia, great catch on the rope.",
+      "start": 42.12,
+      "end": 45.88,
+      "duration": 3.76,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line15.mp3"
+    },
+    {
+      "line": 16,
+      "text": "And you. Best nose on the team. The absolute worst listener on the team.",
+      "start": 45.8,
+      "end": 51.6,
+      "duration": 5.8,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line16.mp3"
+    },
+    {
+      "line": 17,
+      "text": "Looks like we've got another case.",
+      "start": 51.52,
+      "end": 53.86,
+      "duration": 2.34,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/madeline/madeline_line17.mp3"
+    }
+  ],
+  "olivia": [
+    {
+      "line": 1,
+      "text": "I already found footprints on the porch!",
+      "start": 0.0,
+      "end": 2.38,
+      "duration": 2.38,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line01.mp3"
+    },
+    {
+      "line": 2,
+      "text": "I know. I just like finding things.",
+      "start": 2.3,
+      "end": 5.11,
+      "duration": 2.81,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line02.mp3"
+    },
+    {
+      "line": 3,
+      "text": "Wait. Where's Kobe?",
+      "start": 5.03,
+      "end": 7.15,
+      "duration": 2.12,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line03.mp3"
+    },
+    {
+      "line": 4,
+      "text": "Look \u2014 drag marks. Whatever did this went that way.",
+      "start": 7.07,
+      "end": 11.03,
+      "duration": 3.96,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line04.mp3"
+    },
+    {
+      "line": 5,
+      "text": "He definitely found something.",
+      "start": 10.95,
+      "end": 13.38,
+      "duration": 2.43,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line05.mp3"
+    },
+    {
+      "line": 6,
+      "text": "He went left! There's bandage fluff everywhere!",
+      "start": 13.3,
+      "end": 16.78,
+      "duration": 3.48,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line06.mp3"
+    },
+    {
+      "line": 7,
+      "text": "Wait \u2014 look. The scarecrow's arm is bent all the way back. And there's rope, chewed clean through.",
+      "start": 16.7,
+      "end": 25.19,
+      "duration": 8.49,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line07.mp3"
+    },
+    {
+      "line": 8,
+      "text": "This was eaten. Look how frayed it is at the top, not the bottom. There's also black hair on it!",
+      "start": 25.11,
+      "end": 32.78,
+      "duration": 7.67,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line08.mp3"
+    },
+    {
+      "line": 9,
+      "text": "Here's what happened. Some animal must have chewed through the rope.",
+      "start": 32.7,
+      "end": 37.47,
+      "duration": 4.77,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line09.mp3"
+    },
+    {
+      "line": 10,
+      "text": "When the rope broke, the scarecrow swung into the mummy statue, and its arm caught the wrapping and pulled the whole thing loose as it fell.",
+      "start": 37.39,
+      "end": 47.93,
+      "duration": 10.54,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line10.mp3"
+    },
+    {
+      "line": 11,
+      "text": "...where Kobe found it and decided it was the best toy in the world.",
+      "start": 47.85,
+      "end": 53.55,
+      "duration": 5.7,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line11.mp3"
+    },
+    {
+      "line": 12,
+      "text": "No, no \u2014 not a werewolf, not a vampire bat. Just a silly puppy who loves to snack on everything.",
+      "start": 53.47,
+      "end": 62.03,
+      "duration": 8.56,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line12.mp3"
+    },
+    {
+      "line": 13,
+      "text": "Thank you, Vayda \u2014 you reminding us werewolves and vampires don't live downtown is what helped us solve this case.",
+      "start": 61.95,
+      "end": 70.57,
+      "duration": 8.62,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line13.mp3"
+    },
+    {
+      "line": 14,
+      "text": "I'm on it!",
+      "start": 70.49,
+      "end": 71.92,
+      "duration": 1.43,
+      "file": "/Users/louisburwell/Documents/Claude read:write/monster-detectives/audio/lines/olivia/olivia_line14.mp3"
+    }
+  ]
+}
