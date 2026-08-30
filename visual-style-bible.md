@@ -11,21 +11,21 @@
 - **Logo treatment** (for title cards only, e.g. shot 7.1): "MONSTER" in green slimy dripping letters with an eyeball replacing the O, "DETECTIVES" below in purple, a magnifying glass icon integrated into the lockup.
 
 ## Characters
-*(Reference: `reference/character-sheet.png` — Madeline, Veda, Olivia, Kobe, left to right)*
+*(Reference: `reference/character-sheet.png` — Maddie, VeyVey, Livy, Kobe, left to right)*
 
-### Madeline — age 9 — "The Leader"
+### Maddie — age 9 — "The Leader"
 Confident, natural leader energy, slightly bossy but warm.
 - **Accent color**: purple
 - **Look**: long wavy dark brown hair with a small purple clip; warm light-tan skin, brown eyes. Purple pleather trench coat/jacket with a gold sheriff-star badge pinned on the left chest, black belt with small utility pouches, black leggings, purple high-top sneakers (white laces, cream soles).
 - **Default pose/expression**: confident, arms crossed, easy half-smile. Decisive and serious when giving orders; exasperated eye-roll around Kobe.
 
-### Veda — age 6 — "The Goofball"
+### VeyVey — age 6 — "The Goofball"
 Goofy, loud, a little dramatic, delivers nonsense with total confidence.
 - **Accent color**: magenta/pink
 - **Look**: blonde wavy hair in two space-buns, one with a blue clip, one with a pink monster-shaped clip; bright green eyes, big open gap-tooth smile. Mustard-yellow zip hoodie over a pink t-shirt with a cute cartoon-monster graphic, sparkly purple skater skirt, rainbow-striped tights, pink Croc-style sandals with charms.
 - **Default pose/expression**: wide dramatic gestures, mouth full of candy, gleeful chaos, contemptuous side-eye when "right."
 
-### Olivia — age 9 — "The Clue Finder"
+### Livy — age 9 — "The Clue Finder"
 Sharp, observant, a little proud of being right, warms up when explaining a clue.
 - **Accent color**: rose/pink
 - **Look**: long wavy brown hair, round purple/magenta glasses, brown eyes. Pink pleather moto jacket over a white collared shirt with a black-and-pink plaid tie, pink pleated skirt, pink high-top sneakers.
